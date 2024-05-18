@@ -1,5 +1,28 @@
 import images from './images';
 
+const navItems = [
+	{
+		title: 'Home',
+		link: '#home',
+	},
+	{
+		title: 'About',
+		link: '#about',
+	},
+	{
+		title: 'Menu',
+		link: '#menu',
+	},
+	{
+		title: 'Awards',
+		link: '#awards',
+	},
+	{
+		title: 'Contact',
+		link: '#contact',
+	},
+];
+
 const drinks = [
 	{
 		title: 'Fresh Lemonade',
@@ -79,4 +102,4 @@ const awards = [
 	},
 ];
 
-export default { drinks, cocktails, awards };
+export default { navItems, drinks, cocktails, awards };

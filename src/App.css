@@ -1,0 +1,50 @@
+.section__padding {
+	padding: 4rem 6rem;
+}
+
+.flex__center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.app__bg {
+	background-image: url('./assets/bg.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+.app__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	min-height: 100vh;
+}
+
+.app__wrapper-info {
+	flex: 1;
+}
+
+.main__font {
+	font-family: var(--font-base);
+	font-weight: 700;
+	font-size: 90px;
+	line-height: 117px;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+
+	color: var(--color-golden);
+}
+
+.p__font {
+	font-family: var(--font-body);
+	color: var(--color-white);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+}
