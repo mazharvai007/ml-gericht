@@ -1,4 +1,4 @@
-import images from './images';
+import images from './imgSrc';
 
 const navItems = [
 	{
@@ -102,4 +102,5 @@ const awards = [
 	},
 ];
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default { navItems, drinks, cocktails, awards };

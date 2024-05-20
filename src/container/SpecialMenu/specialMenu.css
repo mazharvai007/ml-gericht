@@ -1,0 +1,56 @@
+.app__specialMenu {
+	background-color: var(--color-black);
+}
+
+.app__specialMenu .app__heading {
+	margin-bottom: 5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.app__specialMenu .app__heading .app__subheading {
+	align-items: center;
+}
+
+.app__specialMenu-content {
+}
+
+.app__specialMenu-content__block {
+}
+
+.app__specialMenu-content__block h3 {
+}
+
+.app__specialMenu-menuItems {
+}
+
+.app__specialMenu-menuItem {
+}
+
+.app__specialMenu-menuItem__head {
+}
+
+.app__specialMenu-menuItem__name {
+}
+
+.app__specialMenu-menuItem__name h4 {
+}
+
+.app__specialMenu-menuItem__dash {
+}
+
+.app__specialMenu-menuItem__price {
+}
+
+.app__specialMenu-menuItem__subHead {
+}
+
+.app__specialMenu-menuItem__subHead p {
+}
+
+.app__specialMenu-content_image {
+}
+
+.app__specialMenu-content_image img {
+}
