@@ -29,9 +29,11 @@ const SpecialMenu = () => {
 											{item.title}
 										</h4>
 									</div>
-									<div className="app__specialMenu-menuItem__dash"></div>
-									<div className="app__specialMenu-menuItem__price subtitle__font">
-										{item.price}
+									<div className="wrap">
+										<div className="app__specialMenu-menuItem__dash"></div>
+										<div className="app__specialMenu-menuItem__price subtitle__font">
+											{item.price}
+										</div>
 									</div>
 								</div>
 
@@ -61,9 +63,11 @@ const SpecialMenu = () => {
 											{item.title}
 										</h4>
 									</div>
-									<div className="app__specialMenu-menuItem__dash"></div>
-									<div className="app__specialMenu-menuItem__price subtitle__font">
-										{item.price}
+									<div className="wrap">
+										<div className="app__specialMenu-menuItem__dash"></div>
+										<div className="app__specialMenu-menuItem__price subtitle__font">
+											{item.price}
+										</div>
 									</div>
 								</div>
 
@@ -74,7 +78,9 @@ const SpecialMenu = () => {
 						))}
 					</div>
 				</div>
+			</div>
 
+			<div className="app__specialMenu-button">
 				<Button title="View More" />
 			</div>
 		</div>
