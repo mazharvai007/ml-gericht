@@ -1,5 +1,6 @@
 .app__newsletter {
 	background-color: var(--color-black);
+	position: relative;
 }
 
 .app__newsletter-container {
@@ -8,7 +9,10 @@
 	border: 1px solid rgba(220, 202, 135, 0.2);
 	box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
 
-	padding: 7rem 15rem;
+	padding: 5rem 15rem;
+
+	position: absolute;
+	top: 0;
 }
 
 .app__newsletter-container .app__heading {
@@ -37,7 +41,7 @@
 .app__newsletter-form input {
 	border: 1px solid var(--color-crimson);
 	background-color: transparent;
-	padding: 0.7rem 1rem;
+	padding: 1rem 2rem;
 	flex: 1 1;
 	font-family: var(--font-base);
 	font-size: 1rem;
@@ -73,6 +77,13 @@
 
 	.app__newsletter-container .app__heading h2 {
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.app__newsletter-container {
+		position: relative;
+		top: inherit;
 	}
 }
 
