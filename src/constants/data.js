@@ -102,5 +102,24 @@ const awards = [
 	},
 ];
 
+const galleryImages = [
+	{
+		title: 'Gallery01',
+		imgURL: images.gallery01,
+	},
+	{
+		title: 'Gallery02',
+		imgURL: images.gallery02,
+	},
+	{
+		title: 'Gallery03',
+		imgURL: images.gallery03,
+	},
+	{
+		title: 'Gallery04',
+		imgURL: images.gallery04,
+	},
+];
+
 // eslint-disable-next-line import/no-anonymous-default-export
-export default { navItems, drinks, cocktails, awards };
+export default { navItems, drinks, cocktails, awards, galleryImages };

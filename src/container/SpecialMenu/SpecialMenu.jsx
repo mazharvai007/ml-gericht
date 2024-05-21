@@ -7,7 +7,7 @@ import Button from '../../components/Button/Button';
 
 const SpecialMenu = () => {
 	return (
-		<div className="app__specialMenu section__padding">
+		<div className="app__specialMenu section__padding" id="menu">
 			<Heading
 				subTitle="Menu that fits you palatte"
 				title="Today’s Special"

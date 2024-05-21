@@ -5,7 +5,10 @@ import Button from '../../components/Button/Button';
 
 const About = () => {
 	return (
-		<div className="app__about section__padding app__bg flex__center">
+		<div
+			className="app__about section__padding app__bg flex__center"
+			id="about"
+		>
 			<div className="app__about-content__overlay flex__center">
 				<img src={imgSrc.G} alt="G" />
 			</div>

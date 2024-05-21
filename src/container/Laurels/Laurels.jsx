@@ -6,13 +6,10 @@ import data from '../../constants/data';
 
 const Laurels = () => {
 	return (
-		<div className="app__laurels section__padding app__bg flex__center">
-			{/* <img
-				src={imgSrc.overlayBg}
-				alt="Overlay Background"
-				className="overlay_img"
-			/> */}
-
+		<div
+			className="app__laurels section__padding app__bg flex__center"
+			id="awards"
+		>
 			<div className="app__laurels-content flex__center">
 				<div className="app__laurels-contentWrap">
 					<Heading
