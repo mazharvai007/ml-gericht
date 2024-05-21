@@ -109,3 +109,10 @@
 		height: auto;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.app__chef-info__signature img {
+		width: 100%;
+		height: auto;
+	}
+}

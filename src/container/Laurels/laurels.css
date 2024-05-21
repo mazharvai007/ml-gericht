@@ -93,3 +93,13 @@
 		height: auto;
 	}
 }
+
+@media screen and (max-width: 400px) {
+	.app__laurels-awards {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.app__laurels-award__single {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+}
