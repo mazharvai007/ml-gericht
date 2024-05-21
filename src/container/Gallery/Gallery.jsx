@@ -30,7 +30,7 @@ const Gallery = () => {
 					Volutpat mattis ipsum turpis elit elit scelerisque egestas
 					mu.
 				</p>
-				<Button title="View More" />
+				<Button title="View More" type="button" />
 			</div>
 			<div className="app__gallery-images">
 				<div className="app__gallery-images__container" ref={scrollRef}>

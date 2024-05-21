@@ -1,3 +1,80 @@
 .app__findUs {
-	display: none;
+}
+
+.app__findUs-contentWrap,
+.app__findUs-findUsWorld {
+	width: 100%;
+	flex: 1;
+}
+
+.app__findUs-content__findUsInfo {
+}
+
+.app__findUs-content__findUsInfo > p {
+	color: var(--color-grey);
+	margin-top: 3rem;
+}
+
+.app__findUs-openingHour {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 2rem 0 3rem;
+}
+
+.app__findUs-openingHour h4 {
+	color: var(--color-golden);
+}
+
+.app__findUs-findUsWorld {
+	margin-left: 6rem;
+	justify-content: flex-end;
+	align-items: center;
+	display: flex;
+}
+
+.app__findUs-findUsWorld img {
+	width: 619px;
+	height: 688px;
+}
+
+@media screen and (min-width: 2000px) {
+	.app__findUs-findUsWorld img {
+		width: 80%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 1550px) {
+	.app__findUs-findUsWorld img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.app__findUs {
+		flex-direction: column;
+	}
+
+	.app__findUs-findUsWorld {
+		margin-top: 5rem;
+		margin-left: 0;
+		justify-content: center;
+	}
+
+	.app__findUs-findUsWorld img {
+		width: 50%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.app__findUs-findUsWorld {
+		justify-content: center;
+	}
+	.app__findUs-findUsWorld img {
+		width: 100%;
+		height: auto;
+	}
 }

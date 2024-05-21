@@ -17,7 +17,7 @@ const Header = () => {
 					sapien. Et, penatibus aliquam amet tellus{' '}
 				</p>
 
-				<Button title="Explore Menu" />
+				<Button title="Explore Menu" type="button" />
 			</div>
 			<div className="app__wrapper-image">
 				<img src={imgSrc.welcome} alt="Welcome to Gericht" />

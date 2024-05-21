@@ -81,7 +81,7 @@ const SpecialMenu = () => {
 			</div>
 
 			<div className="app__specialMenu-button">
-				<Button title="View More" />
+				<Button title="View More" type="button" />
 			</div>
 		</div>
 	);

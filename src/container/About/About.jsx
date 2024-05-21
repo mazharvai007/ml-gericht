@@ -25,7 +25,8 @@ const About = () => {
 						Quis pharetra adipiscing ultrices vulputate posuere
 						tristique. In sed odio nec aliquet eu proin mauris et.
 					</p>
-					<Button title="Know More" />
+
+					<Button title="Know More" type="button" />
 				</div>
 				<div className="app__about-content__middle">
 					<img src={imgSrc.knife} alt="Knife" />
@@ -42,7 +43,8 @@ const About = () => {
 						volutpat. Risus placerat morbi volutpat habitasse
 						interdum mi aliquam In sed odio nec aliquet.
 					</p>
-					<Button title="Know More" />
+
+					<Button title="Know More" type="button" />
 				</div>
 			</div>
 		</div>

@@ -11,6 +11,7 @@ import {
 	Laurels,
 	SpecialMenu,
 } from './container';
+import NewsLetter from './container/NewsLetter/NewsLetter';
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 			<Laurels />
 			<Gallery />
 			<FindUs />
+			<NewsLetter />
 			<Footer />
 		</>
 	);
