@@ -1,0 +1,118 @@
+.app__chef-chefWorld,
+.app__chef-contentWrap {
+	flex: 1;
+	width: 100%;
+}
+
+.app__chef-chefWorld img {
+	width: 634px;
+	height: 789px;
+}
+
+.app__chef-content__chefInfo {
+	margin-top: 4rem;
+}
+
+.app__chef-chefQuote {
+	display: inline;
+}
+.app__chef-chefQuote img {
+	float: left;
+	width: 47px;
+	height: 40px;
+	margin: 0 1rem 1rem 0;
+}
+
+.app__chef-chefQuote p {
+	font-style: italic;
+
+	color: var(--color-grey);
+}
+
+.app__chef-info__block {
+	margin: 4rem 0;
+}
+
+.app__chef-info__block h3 {
+	font-size: 32px;
+	line-height: 42px;
+
+	color: var(--color-golden);
+}
+
+.app__chef-info__block p {
+	color: var(--color-grey);
+}
+
+.app__chef-info__signature img {
+	width: 235px;
+	height: 83px;
+}
+
+@media screen and (min-width: 2000px) {
+	.app__chef-content__chefInfo {
+		margin-top: 5rem;
+	}
+
+	.app__chef-info__block {
+		margin: 5rem 0;
+	}
+
+	.app__chef-chefWorld img {
+		width: 80%;
+		height: auto;
+	}
+
+	.app__chef-info__signature img,
+	.app__chef-chefQuote img {
+		width: auto;
+		height: 100%;
+	}
+
+	.app__chef-info__block h3 {
+		font-size: 52px;
+		line-height: 62px;
+	}
+
+	.app__chef-chefQuote p {
+		font-size: 35px;
+		line-height: 55px;
+	}
+}
+
+@media screen and (max-width: 1550px) {
+	.app__chef-chefWorld img {
+		width: 80%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.app__chef {
+		flex-direction: column-reverse;
+	}
+
+	.app__chef-chefWorld {
+		display: flex;
+		justify-content: center;
+		margin-top: 5rem;
+	}
+	.app__chef-chefWorld img {
+		width: 50%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.app__chef-chefWorld img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.app__chef-info__signature img {
+		width: 100%;
+		height: auto;
+	}
+}

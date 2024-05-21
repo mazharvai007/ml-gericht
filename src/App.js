@@ -1,9 +1,32 @@
 import './App.css';
+import { Navbar } from './components';
+import {
+	About,
+	Chef,
+	FindUs,
+	Footer,
+	Gallery,
+	Header,
+	IntroVideo,
+	Laurels,
+	SpecialMenu,
+} from './container';
+import NewsLetter from './container/NewsLetter/NewsLetter';
 
 function App() {
 	return (
 		<>
-			<h1>Hello, ML Gericht</h1>
+			<Navbar />
+			<Header />
+			<About />
+			<SpecialMenu />
+			<Chef />
+			<IntroVideo />
+			<Laurels />
+			<Gallery />
+			<FindUs />
+			<NewsLetter />
+			<Footer />
 		</>
 	);
 }

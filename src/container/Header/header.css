@@ -1,0 +1,44 @@
+.app__header {
+	background: var(--color-black);
+}
+
+.app__wrapper-info .heading__font-h1 {
+	margin: 2rem 0;
+}
+
+.app__wrapper-info .p__font {
+	margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 2000px) {
+	.app__wrapper-info .heading__font-h1 {
+		font-size: 200px;
+		line-height: 230px;
+
+		margin: 4rem 0;
+	}
+
+	.app__wrapper-info .p__font {
+		margin-bottom: 4rem;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.app__wrapper-info .heading__font-h1 {
+		font-size: 90px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.app__wrapper-info .heading__font-h1 {
+		font-size: 70px;
+		line-height: 87px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.app__wrapper-info .heading__font-h1 {
+		font-size: 50px;
+		line-height: 70px;
+	}
+}

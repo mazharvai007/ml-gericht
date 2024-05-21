@@ -1,4 +1,27 @@
-import images from './images';
+import images from './imgSrc';
+
+const navItems = [
+	{
+		title: 'Home',
+		link: '#home',
+	},
+	{
+		title: 'About',
+		link: '#about',
+	},
+	{
+		title: 'Menu',
+		link: '#menu',
+	},
+	{
+		title: 'Awards',
+		link: '#awards',
+	},
+	{
+		title: 'Contact',
+		link: '#contact',
+	},
+];
 
 const drinks = [
 	{
@@ -79,4 +102,24 @@ const awards = [
 	},
 ];
 
-export default { drinks, cocktails, awards };
+const galleryImages = [
+	{
+		title: 'Gallery01',
+		imgURL: images.gallery01,
+	},
+	{
+		title: 'Gallery02',
+		imgURL: images.gallery02,
+	},
+	{
+		title: 'Gallery03',
+		imgURL: images.gallery03,
+	},
+	{
+		title: 'Gallery04',
+		imgURL: images.gallery04,
+	},
+];
+
+// eslint-disable-next-line import/no-anonymous-default-export
+export default { navItems, drinks, cocktails, awards, galleryImages };
