@@ -7,7 +7,7 @@ import Button from '../../components/Button/Button';
 
 const Header = () => {
 	return (
-		<div className="app__header app__wrapper section__padding" id="#home">
+		<div className="app__header app__wrapper section__padding" id="home">
 			<div className="app__wrapper-info">
 				<SubHeading title="Chase the new Flavour" />
 				<h1 className="heading__font-h1">The key to Fine dining</h1>
